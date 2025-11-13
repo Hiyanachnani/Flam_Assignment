@@ -1,0 +1,13 @@
+===== PARAMETER ESTIMATES =====
+Theta (degrees): 29.582815
+M: -0.050000
+X: 55.013607
+Sum of squared error: 771686.8924
+L1 distance sum: 28268.3760, mean: 18.8456
+
+===== FITTED EQUATION =====
+x = t*cos(29.582815) - exp(-0.050000*|t|)*sin(0.3t)*sin(29.582815) + 55.013607
+y = 42 + t*sin(29.582815) + exp(-0.050000*|t|)*sin(0.3t)*cos(29.582815)
+
+===== LATEX SUBMISSION STRING =====
+\left(t\cos(29.582815) - e^{-0.050000|t|}\sin(0.3t)\sin(29.582815) + 55.013607,\ 42 + t\sin(29.582815) + e^{-0.050000|t|}\sin(0.3t)\cos(29.582815)\right)
